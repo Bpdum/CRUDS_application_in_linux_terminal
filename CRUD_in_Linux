@@ -1,9 +1,8 @@
-#!/bin/bash
-
+#!/bin/bash 
 echo "************************************************************************"
 echo "                 -----WELCOME TO LINUX -----                       "
 echo "************************************************************************"
-echp "this  is a dashboard of my company "
+echp "............this  is a dashboard of my company .................."
 select option in create retrieve update delete quit
 do
 
@@ -31,6 +30,7 @@ done
 
 ........................................
 ........................................
+create.sh
 #!/bin/bash
 dept=
 username=
@@ -73,6 +73,8 @@ fi
 
 ......................................
 .......................................
+retrieve.sh
+
 #!/bin/bash
 fileName=records.txt
 
@@ -156,6 +158,7 @@ esac
 .......................................
 .......................................
 
+update.sh
 #!/bin/bash
 fileName=records.txt
 cat $fileName
